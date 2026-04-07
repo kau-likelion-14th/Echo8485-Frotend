@@ -1,7 +1,5 @@
 import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
-
-// ✅ 이미지 import
 import logo from "../assets/img/logo.png";
 import logoutIcon from "../assets/icon/logout.png";
 
