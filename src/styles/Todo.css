@@ -79,3 +79,34 @@
 .cat-study { background-color: #E6F6F4; color: #333; }
 .cat-exercise { background-color: #FFE5E5; color: #333; }
 .cat-etc { background-color: #FFF9C4; color: #333; }
+
+.todo-add {
+  width: 48px;
+  height: 48px;
+
+  border: none;
+  border-radius: 50%;
+
+  background-color: #6183f2;
+  color: white;
+
+  font-size: 30px;
+  font-weight: 300;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+}
+
+.todo-add:hover {
+  background-color: #4f6fe0;
+  transform: scale(1.08);
+  box-shadow: 0 10px 20px rgba(97, 131, 242, 0.35);
+}
+
+.todo-add:active {
+  transform: scale(0.95);
+}
