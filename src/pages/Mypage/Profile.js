@@ -15,8 +15,8 @@ const Profile = ({ profileImageUrl }) => {//TODO: profileImageUrl props로 받�
     const handleClickEditIcon = () => {
         fileInputRef.current?.click();
     };
-    const displayImageSrc = previewUrl || profileImageUrl;
-    const hasImage = !!displayImageSrc;
+    const displayImageSrc = previewUrl || profileImageUrl;// 새로 선택한 이미지가 있으면 그걸 보여주고, 없으면 props로 받은 profileImageUrl 보여주기
+    const hasImage = !!displayImageSrc;// 이미지 여부
     return (
         <div className="profile-container-wrapper">
             <div className="profile-section">
@@ -42,8 +42,6 @@ const Profile = ({ profileImageUrl }) => {//TODO: profileImageUrl props로 받�
                 </div>
                 <button className="save-btn">프로필 저장</button>
             </div>
-
-            {/* 프로필 하단: 입력창 영역 */}
             <div className="input-section">
                 <div className="input-group">
                     <label>한 줄 소개</label>
