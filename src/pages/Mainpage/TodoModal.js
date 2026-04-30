@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import "../../styles/Todo.css";
-import MainPage from "./RoutineModal";
 import "../../styles/TodoModal.css";
 import RoutineModal from "./RoutineModal";
 const TodoModal = ({ 
