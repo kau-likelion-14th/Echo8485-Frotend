@@ -1,0 +1,41 @@
+.friend-page {
+  width: 100%;
+  min-height: calc(100vh - 90px);
+  padding-top: 95px;
+  background-color: #ffffff;
+}
+
+.friend-content {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 90px;
+}
+.friend-section {
+  width: 650px;
+}
+
+.request-section {
+  width: 520px;
+}
+
+.friend-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #111111;
+  margin-bottom: 32px;
+}
+.friend-page__inner {
+  width: 1280px;
+  margin: 0 auto;
+  padding-top: 95px;
+}
+
+.friend-page__grid {
+  display: grid;
+  grid-template-columns: 620px 520px;
+  column-gap: 120px;
+  align-items: flex-start;
+}
