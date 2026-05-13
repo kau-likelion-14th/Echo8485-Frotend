@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import MainPage from './pages/Mainpage/MainPage';
-import MyPage from './pages/MyPage/MyPage';
+import MyPage from './pages/Mypage/MyPage';
 import FriendPage from './pages/FriendPage/FriendPage';
 import FriendDetailPage from './pages/FriendPage/FriendDetailPage';
 import { Routes, Route, useLocation } from 'react-router-dom';
