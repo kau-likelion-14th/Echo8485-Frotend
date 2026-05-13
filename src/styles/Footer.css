@@ -1,61 +1,74 @@
-.footer {
-    width: 100%;
-    background:rgba(220, 248, 241, 0.75); 
-    padding: 60px 40px; 
-    font-family: "Paperlogy", sans-serif;
-    
+.footer{
     display: flex;
+    font-family: "Paperlogy", sans-serif;
+    height: 220px;
+
+    background: rgba(168, 230, 207, 0.3);
     flex-direction: column;
-    gap: 24px; 
+    width: 100%;
 }
 
-/* 상단 로고 영역 */
-.footer-top {
+.footer-top{
     display: flex;
     align-items: center;
-    gap: 12px;
+    margin-top: 24px;
+    padding-left: 32px;
+    box-sizing: border-box;
 }
 
-.footer-logo {
-    width: 50px;
-    height: 50px;
+.footer-logo{
+    width: 36px;
+    height: 36px;
 }
 
-.footer-title-text {
-    font-size: 28px;
+.footer-title{
+    font-size: 22px;
     font-weight: 600;
     color: #1c1c1c;
-    margin: 0;
+    margin-left: 12px;
 }
 
-/* 중단 설명 영역 */
-.footer-mid {
-    font-size: 16px;
-    font-weight: 500;
-    color: #8f8f8f;
-
-    margin-bottom: 30px;
-}
-
-/* 하단 상세 정보 영역 (Flex wrapping 사용) */
-.footer-bottom {
+.footer-middle{
     display: flex;
-    flex-wrap: wrap; 
-    gap: 20px 40px; 
-    font-size: 14px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #1c1c1c;
+    margin-top: 10px;
+    padding-left: 32px;
+    box-sizing: border-box;
 }
 
-.info-item {
+.footer-bottom-container{
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 28px;
+    padding-left: 32px;
+    gap: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.info-item-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info-item-row{
+    display: flex;
+    justify-content: flex-start;
     gap: 12px;
 }
 
-.value {
-    font-weight: 600;
-    color: #8f8f8f; 
-    white-space: nowrap;
+.label{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8F8F8F;
 }
 
-.label {
-    color: #8a8a8a;
+.value{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8F8F8F;
 }
